@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:screenOrientation="portrait">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.20"
+        android:src="@drawable/barview"
+        android:contentDescription="@string/desc_imagen"/>
+
+
+    <TextView
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="@string/nombre"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spNombre"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="@string/clave"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etClave"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lb_btn_loguin"
+        android:id="@+id/btnLoguin"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="111dp"
+        android:onClick="startMesaActivity" />
+
+</LinearLayout>

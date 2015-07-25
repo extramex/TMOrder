@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.olonte.tmorder" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Network State Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:name=".src.TMOrderApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/notes"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".view.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.LogueoActivity"
+            android:label="@string/title_activity_logueo"  android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".view.AsignacionActivity"
+            android:label="@string/title_activity_asignacion" android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".view.CategoriaActivity"
+            android:label="@string/title_activity_categoria" android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".view.SubCategoriaActivity"
+            android:label="@string/title_activity_sub_categoria" android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".view.ProductoActivity"
+            android:label="@string/title_activity_producto" android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".view.AnotacionItemActivity"
+            android:label="@string/title_activity_anotacion_item" android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".view.ModificarPedidoActivity"
+            android:label="@string/title_activity_modificar_pedido" android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".view.FacturaActivity"
+            android:label="@string/title_activity_factura" android:screenOrientation="portrait">
+        </activity>
+
+        <receiver
+            android:name=".helper.OrdenReceiver"
+            android:enabled="true"
+            android:exported="true" >
+        </receiver>
+
+        <service
+            android:name=".helper.OrdenService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".view.NotificacionOrdenActivity"
+            android:label="@string/title_activity_notificacion_orden" android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

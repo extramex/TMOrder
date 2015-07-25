@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- Tag Title -->
+    <string name="title_activity_logueo">Logueo</string>
+    <string name="title_activity_asignacion">Mesas</string>
+    <string name="title_activity_categoria">Categoria</string>
+    <string name="title_activity_sub_categoria">SubCategoria</string>
+    <string name="title_activity_producto">Productos</string>
+    <string name="title_activity_modificar_pedido">Modificar Pedido</string>
+    <string name="title_activity_anotacion_item">AnotacionItem</string>
+    <string name="title_activity_notificacion_orden">Notificacion Orden</string>
+    <string name="title_activity_anotacion">Anotación</string>
+    <string name="title_activity_factura">Factura</string>
+
+    <!-- Tag Menu -->
+    <string name="menu_item_anotacion">Anotacion</string>
+    <string name="menu_item_facturar">Factura</string>
+    <string name="menu_item_confirmar">Confirmar</string>
+    <string name="menu_item_cancelar">Cancelar</string>
+    <string name="menu_item_modificar">Modificar</string>
+    <string name="menu_item_volver">Volver</string>
+
+    <string name="app_name">TMOrder</string>
+    <string name="tag_bienv_sis">Bienvenido al Sistema</string>
+    <string name="tag_bienv">Bienvenido</string>
+    <string name="desc_imagen">Imagen de inicio</string>
+    <string name="desc_imagen_mesas">Imagen mesas</string>
+
+    <!-- Tamaños -->
+    <string name="tag_column_count">2</string>
+    <string name="tag_min_column_width">210</string>
+    <string name="tag_width_btn">250</string>
+
+    <string name="tag_color">#0E346C</string>
+    <string name="tag_tlt_txt">#0E346C</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Tag Servidor -->
+    <!-- tachinave.com   10.0.2.2-->
+    <string name="tag_servidor">http://10.0.2.2</string>
+    <string name="tag_carga_ini">Iniciando carga de datos...</string>
+    <string name="tag_method">POST</string>
+    <string name="tag_consulta">consulta</string>
+    <string name="tag_success">success</string>
+    <string name="tag_exito">1</string>
+    <string name="tag_id_session">idSession</string>
+    <string name="tag_error">0</string>
+    <string name="tag_msjCrgIni">"Carga inicial generada con éxito</string>
+
+    <!-- Errores Base de Datos -->
+    <string name="tag_error_con_serv">Error al conectar con el servidor.</string>
+    <string name="tag_error_bd">error</string>
+    <string name="tag_error_msj_bd">Error Base de Datos</string>
+
+    <string name="tag_error_con">Error con la conexión de Internet</string>
+    <string name="error_internet">Error Conexión</string>
+    <string name="tag_msj_cont_int">Por favor conectarse a Internet</string>
+
+    <!-- Error Tabla -->
+    <string name="tag_error_serv_datos">Error Servidor Cargando Datos Iniciales</string>
+    <string name="tag_error_serv_log_usu">Error Servidor Tabla Usuario</string>
+    <string name="tag_error_serv_asig">Error Servidor Tabla Asignación</string>
+    <string name="tag_error_serv_cat">Error Servidor Tabla Categoria</string>
+    <string name="tag_error_serv_sub_cat">Error Servidor Tabla SubCategoria</string>
+    <string name="tag_error_serv_prd">Error Servidor Tabla Producto</string>
+    <string name="tag_error_serv_vta">Error Servidor Tabla Venta</string>
+    <string name="tag_error_serv_ped">Error Servidor Tabla Pedido</string>
+    <string name="tag_error_serv_mod_ped">Error Servidor Tabla Modicar Pedido</string>
+    <string name="tag_error_serv_ord">Error Servidor Tabla Orden</string>
+    <string name="tag_error_serv_fact">Error Servidor Tabla Factura</string>
+
+    <!-- Errores Excepcion -->
+    <string name="tag_error_exc">Error Excepción</string>
+    <string name="tag_error_exc_usu">Error Excepción Usuario</string>
+    <string name="tag_error_exc_asig">Error Excepción Asignacion</string>
+    <string name="tag_error_exc_cat">Error Excepción Categoría</string>
+    <string name="tag_error_exc_sub_cat">Error Excepción SubCategoría</string>
+    <string name="tag_error_exc_prd">Error Excepción Producto</string>
+    <string name="tag_error_exc_vta">Error Excepción Venta</string>
+    <string name="tag_error_exc_ped">Error Excepción Pedido</string>
+    <string name="tag_error_exc_mod_ped">Error Excepción Modificar Pedido</string>
+    <string name="tag_error_exc_ord">Error Excepción Orden</string>
+    <string name="tag_error_exc_fact">Error Excepción Factura</string>
+
+    <!-- Errorores JSON -->
+    <string name="tag_error_json_usu">Error JSON Usuario</string>
+    <string name="tag_error_json">Error JSON</string>
+    <string name="tag_error_jsn_asig">Error JSON Asginación</string>
+    <string name="tag_error_jsn_cat">Error JSON Categoría</string>
+    <string name="tag_error_jsn_sub_cat">Error JSON SubCategoría</string>
+    <string name="tag_erro_json_prd">Error JSON Producto</string>
+    <string name="tag_error_jsn_vta">Error JSON Venta</string>
+    <string name="tag_error_jsn_ped">Error JSON Pedido</string>
+    <string name="tag_error_jsn_mod_ped">Error JSON Modificar Pedido</string>
+    <string name="tag_error_jsn_ord">Error JSON Orden</string>
+    <string name="tag_error_jsn_fact">Error JSON Factura</string>
+
+    <!-- Mensajes de Error -->
+    <string name="tag_err_msgCrgIni">Error carga inicial de datos</string>
+    <string name="tag_tl_error_usuario">Error Ingresando Usuario </string>
+    <string name="tag_msj_error_usuario">Usuario o Contraseña Incorrectos</string>
+    <string name="tag_msj_error_ing_usu">Debe seleccionar un usuario</string>
+    <string name="tag_tl_err_fact">Error Factura</string>
+
+    <!-- Paginas -->
+    <string name="tag_url_usuarios">/TMOrder/mod_aplicacion/tmord_cargar_usuarios.php</string>
+    <string name="tag_url_asignaciones">/TMOrder/mod_aplicacion/tmord_cargar_asignaciones.php</string>
+    <string name="tag_url_categorias">/TMOrder/mod_aplicacion/tmord_cargar_categorias.php</string>
+    <string name="tag_url_subcategorias">/TMOrder/mod_aplicacion/tmord_cargar_subcategorias.php</string>
+    <string name="tag_url_productos">/TMOrder/mod_aplicacion/tmord_cargar_productos.php</string>
+    <string name="tag_url_gen_venta">/TMOrder/mod_aplicacion/tmord_generar_venta.php</string>
+    <string name="tag_url_gen_pedido">/TMOrder/mod_aplicacion/tmord_generar_pedido.php</string>
+    <string name="tag_url_gen_mod_ped">/TMOrder/mod_aplicacion/tmord_generar_mod_pedido.php</string>
+    <string name="tag_url_orden">/TMOrder/mod_aplicacion/tmord_cargar_orden.php</string>
+    <string name="tag_url_factura">/TMOrder/mod_aplicacion/tmord_generar_factura.php</string>
+
+    <!-- Tag Usuario -->
+    <string name="tag_carga_usu">Iniciando carga de usuario...</string>
+    <string name="tag_id_usu_df">0</string>
+    <string name="tag_usu_df">Seleccionar....</string>
+    <string name="tag_id_usuario">idusuario</string>
+    <string name="tag_nom_usuario">nombre</string>
+    <string name="tag_usuario">usuario</string>
+    <string name="tag_apell_usuario">apellido</string>
+    <string name="tag_pass_usuario">passw</string>
+    <string name="nombre">Usuario</string>
+    <string name="clave">Clave</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="logueo">Logueo</string>
+    <string name="lb_btn_loguin">Loguin</string>
+
+    <!-- Tag Categoria -->
+     <string name="tag_id_catg">idcategoria</string>
+    <string name="tag_desc_catg">descripcion</string>
+
+    <!--Tag SubCategoria -->
+    <string name="tag_id_sub_catg">idsubcategoria</string>
+    <string name="tag_desc_sub_catg">descripcion</string>
+
+    <!-- Tag Asignacion -->
+    <string name="tag_sel_ped_ms">Seleccione los pedidos para la Mesa:</string>
+    <string name="tag_id_asignacion">idasignacion</string>
+    <string name="tag_id_mesa">idmesa</string>
+    <string name="tag_id_est_asig">idestado</string>
+    <string name="tag_mesa">Mesa</string>
+    <string name="tag_mesa_ocupada">Ocupada</string>
+    <string name="tag_mesa_libre">Libre</string>
+
+    <!-- Tag Venta -->
+    <string name="tag_gen_venta">Generando venta...</string>
+    <string name="tag_arreg_vta">ventas</string>
+    <string name="tag_id_vta">idventa</string>
+    <string name="tag_id_vta_df">0</string>
+    <string name="tag_id_pedido">idpedido</string>
+    <string name="tag_id_pedido_df">0</string>
+
+    <!-- Tag Orden -->
+    <string name="tag_ord_list">Estan listos los pedidos para la(s) mesa(s)</string>
+    <string name="pedidoMesa">Los pedidos de la mesa </string>
+    <string name="tag_ord">idmesa</string>
+    <string name="tag_no_ord">0</string>
+    <string name="tag_arreg_ord">orden</string>
+    <string name="tag_anotacion_ord">anotacion</string>
+    <string name="tag_desc_ord">descripcion</string>
+    <string name="tag_cantidad_ord">cantidad</string>
+    <string name="tag_valor_ord">valor</string>
+    <string name="aceptarNotf">Aceptar</string>
+
+    <!-- Tag Anotacion -->
+    <string name="title_anotacion">Digite la observación</string>
+    <string name="btn_acep_anotacion">Aceptar</string>
+    <string name="btn_cance_anotacion">Cancelar</string>
+    <string name="lb_btn_not">Aceptar</string>
+
+    <!-- Tag Producto -->
+    <string name="tag_carga_productos">Cargando lista de productos ...</string>
+    <string name="tag_gen_pedido">Generando pedido...</string>
+    <string name="tag_id_producto">idproducto</string>
+    <string name="tag_desc_prd">descripcion</string>
+    <string name="tag_cant_prd">cantidad</string>
+    <string name="tag_valor_prd">valor</string>
+    <string name="tag_msj_pedido">Productos seleccionados con éxito</string>
+
+    <!-- Tag Pedido -->
+    <string name="tag_msj_ped">No existen pedidos para la mesa seleccionada</string>
+    <string name="tag_msj_fac_ped">No existen productos para la mesa seleccionada</string>
+    <string name="tag_tl_env_ped">Envío de Pedido</string>
+    <string name="tag_tl_msj_ped">Confirma Enviar Pedido ?</string>
+    <string name="tag_btn_conf_ped">Confirmar</string>
+    <string name="tag_btn_cancl_ped">Cancelar</string>
+
+
+    <!-- Tag ModificarPedido -->
+    <string name="tag_mod_ped">Modificando pedido...</string>
+
+    <string name="chk_seleccionar">Seleccionar</string>
+    <string name="tag_pedido">pedido</string>
+    <string name="tag_val_cant">Debe ingresar primero la cantidad deseada</string>
+    <string name="tag_tl_mod_ped">Modificar Pedido</string>
+    <string name="tag_msj_mod_ped">Confirma Modificar Pedido (Los items seleccionados se eliminaran) ?</string>
+    <string name="tag_btn_conf_mod_ped">Confirmar</string>
+    <string name="tag_btn_canc_mod_ped">Cancelar</string>
+
+    <!-- Tag Factura -->
+    <string name="tag_gen_fact">Generando factura...</string>
+    <string name="tag_cantidad_fac">Cantidad</string>
+    <string name="tag_desc_fac">Descripción</string>
+    <string name="tag_vlr_und_fac">Vlr. Und.</string>
+    <string name="tag_total_fac">Total</string>
+    <string name="tag_sub_total_fac">SubTotal</string>
+    <string name="tag_iva_fac">IVA</string>
+    <string name="lb_btn_fac">Generar</string>
+    <string name="tag_tl_fact">Generar Factura</string>
+    <string name="tag_msj_fac">Confirma generar factura ?</string>
+    <string name="tag_btn_conf_fac">Confirmar</string>
+    <string name="tag_btn_cancl_fac">Cancelar</string>
+    <string name="tag_tl_fac_ord">Factura Orden</string>
+    <string name="tag_msj_gen_fac">Factura generada con éxito</string>
+
+</resources>

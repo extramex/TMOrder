@@ -1,0 +1,50 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <EditText  android:id="@+id/etAnotacion"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:minLines="6"
+        android:gravity="top|left"
+        android:maxLines="10"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:scrollbars="vertical">
+    </EditText>
+
+    <TableLayout  android:id="@+id/tabletLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:padding="5dp"
+        android:stretchColumns="*">
+
+        <TableRow android:id="@+id/rowZero"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/btnAcepAnt"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/btn_acep_anotacion"
+                android:onClick="guardarAnotacion">
+            </Button>
+
+            <Button
+                android:id="@+id/btnCanceAnt"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/btn_cance_anotacion"
+                android:onClick="cancelarAnotacion">
+            </Button>
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/newTableRow"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/newTxtVcantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="@dimen/txtViewSize">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/newTxtVdescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/txtViewSize">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/newTxtVvalorUnidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textSize="@dimen/txtViewSize">
+    </TextView>
+
+    <TextView
+        android:id="@+id/newTxtVvalorTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textSize="@dimen/txtViewSize">
+    </TextView>
+
+</TableRow>

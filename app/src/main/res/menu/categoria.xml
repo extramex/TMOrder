@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/accion_facturar"
+        android:showAsAction="always"
+        android:title="@string/menu_item_facturar"
+        android:icon="@drawable/factura"/>
+
+    <item android:id="@+id/accion_confirmar"
+        android:showAsAction="always"
+        android:title="@string/menu_item_confirmar"
+        android:icon="@drawable/ok"/>
+
+    <item android:id="@+id/accion_modificar"
+        android:showAsAction="always"
+        android:title="@string/menu_item_modificar"
+        android:icon="@drawable/update"/>
+
+    <!--<item android:id="@+id/accion_cancelar"
+        android:showAsAction="always"
+        android:title="@string/menu_item_cancelar"
+        android:icon="@drawable/cancel"/>-->
+
+    <item android:id="@+id/accion_volver"
+        android:showAsAction="always"
+        android:title="@string/menu_item_volver"
+        android:icon="@drawable/back"/>
+
+</menu>

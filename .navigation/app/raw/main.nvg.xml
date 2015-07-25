@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.olonte.tmorder.view.ProductoActivity"/>
+      <point      
+        x = "500"      
+        y = "2120"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.olonte.tmorder.view.ProductoActivity"/>
+      <point      
+        x = "2200"      
+        y = "2120"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.olonte.tmorder.view.LogueoActivity"/>
+      <point      
+        x = "500"      
+        y = "8180"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.olonte.tmorder.view.LogueoActivity"/>
+      <point      
+        x = "2200"      
+        y = "8180"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.olonte.tmorder.view.AsignacionActivity"/>
+      <point      
+        x = "500"      
+        y = "10200"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.olonte.tmorder.view.AsignacionActivity"/>
+      <point      
+        x = "2200"      
+        y = "10200"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.olonte.tmorder.view.MainActivity"/>
+      <point      
+        x = "496"      
+        y = "12220"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.olonte.tmorder.view.MainActivity"/>
+      <point      
+        x = "2196"      
+        y = "12220"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.olonte.tmorder.view.FacturaActivity"/>
+      <point      
+        x = "500"      
+        y = "16260"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.olonte.tmorder.view.FacturaActivity"/>
+      <point      
+        x = "2200"      
+        y = "16260"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.olonte.tmorder.view.SubCategoriaActivity"/>
+      <point      
+        x = "500"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.olonte.tmorder.view.SubCategoriaActivity"/>
+      <point      
+        x = "2200"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.olonte.tmorder.view.AnotacionItemActivity"/>
+      <point      
+        x = "500"      
+        y = "4140"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.olonte.tmorder.view.AnotacionItemActivity"/>
+      <point      
+        x = "2200"      
+        y = "4140"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.olonte.tmorder.view.CategoriaActivity"/>
+      <point      
+        x = "500"      
+        y = "6160"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.olonte.tmorder.view.CategoriaActivity"/>
+      <point      
+        x = "2200"      
+        y = "6160"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.olonte.tmorder.view.ModificarPedidoActivity"/>
+      <point      
+        x = "500"      
+        y = "14240"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.olonte.tmorder.view.ModificarPedidoActivity"/>
+      <point      
+        x = "2200"      
+        y = "14240"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
